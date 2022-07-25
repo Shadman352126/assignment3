@@ -1,0 +1,117 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: #00FFFF;
+}
+.pra{
+	width: 800px;
+	height: 200px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif; 
+}
+h1{
+	font-size: 40px;
+	line-height: 50px;
+}
+.green{
+	width: 400px;
+	height: 200px;
+	background-color: green;
+	position: relative;
+}
+.red{
+	width: 120px;
+	height: 120px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
+
+.fb{
+	width: 180px;
+	position:  fixed;
+	border: 2px solid black;
+	border-radius:5%;
+	top: 10%;
+	right:  -150px;
+	transition: 1s;
+
+}
+.fb:hover{
+	right: -2px;
+}
+.ig{
+	width: 180px;
+	position:  fixed;
+	border: 2px solid black;
+	border-radius:5%;
+	top: 30%;
+	right:  -150px;
+	transition: 1s;
+}
+.ig:hover{
+	right: -2px;
+}
+.yt{
+	width: 180px;
+	position:  fixed;
+	border: 2px solid black;
+	border-radius:5%;
+	top: 50%;
+	right:  -150px;
+	transition: 1s;
+}
+.yt:hover{
+	right: -2px;
+}
+.tw{
+	width: 180px;
+	position:  fixed;
+	border: 2px solid black;
+	border-radius:5%;
+	top: 70%;
+	right:  -150px;
+	transition: 1s;
+}
+.tw:hover{
+	right: -2px;
+}
+.S-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 40px 0px;
+}
+.S-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.S-icons li a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 100%;
+	background: black;
+	border: 2px solid black;
+	font-size: 25px;
+	margin: 0px 15px;
+	color: #08c;
+	transition: 1s;
+}
+.S-icons li a:hover{
+	background: #08c;
+	color: #000;
+}
+.S-icons li a:focus{
+	background: #000;
+	color: #000;
+}
